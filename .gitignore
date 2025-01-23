@@ -1,11 +1,14 @@
+# Archivos generados por Terraform
 *.tfstate
 *.tfstate.backup
-terraform.tfstate
-terraform.tfstate.backup
-terraform.lock.hcl
-crash.log
+.terraform.lock.hcl
 .terraform/
+
 # Archivos generados por Infracost
+.infracost/
 infracost-report.json
 infracost-report.html
 infracost.log
+
+# Otros archivos innecesarios
+.DS_Store
